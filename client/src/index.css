@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #10B981;
+  --color-secondary: #8b5cf6;
+  --color-accent: #f59e0b;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea{
+  @apply w-full border my-2 py-2 px-3 rounded-2xl;
+}
+
+.bg-black-transparent{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+textarea{
+  height: 140px
+}
+
+
+
+button.primary{
+  background-color: #10B981;
+  @apply bg-primary p-2 w-full text-white rounded-2xl;
+}

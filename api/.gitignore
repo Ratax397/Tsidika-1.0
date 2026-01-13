@@ -1,0 +1,64 @@
+# Dépendances
+node_modules/
+bower_components/
+vendor/
+venv/
+env/
+.env
+
+# Fichiers de build
+dist/
+build/
+out/
+target/
+*.log
+*.tmp
+
+# Fichiers IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Variables d'environnement et secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.yml
+
+# Fichiers système
+*.log
+*.pid
+*.seed
+*.cache
+.npm
+.eslintcache
+
+# Couverture de tests
+coverage/
+*.coverage
+.nyc_output/
+htmlcov/
+
+# Bases de données locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Fichiers compilés
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.so
+
+# Fichiers temporaires
+tmp/
+temp/
+*.bak
