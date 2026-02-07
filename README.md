@@ -2,7 +2,7 @@
 
 A simple accommodation booking app with React (Vite) front‑end and Node/Express + MongoDB back‑end. Images are stored on Cloudinary. Useful as a learning/portfolio project.
 
-Live demo: coming soon
+**Live demo:** See [Tsidika 2.0](https://github.com/Ratax397/Tsidika-2.0) for the upgraded version with live demo at [tsidika-2-0.vercel.app](https://tsidika-2-0.vercel.app/)
 
 ## Tech Stack
 - Frontend: React 19, Vite, React Router, Tailwind CSS
@@ -51,6 +51,6 @@ Open http://localhost:5173 to use the app.
 - POST /places, PUT /placesUpdate, GET /getPlaces, GET /getPlacesById/:id, GET /listPlaces
 - POST /bookings, GET /getBookings
 
-Notes
+## Notes
 - This is not production‑hardened. Use environment variables and secure credentials.
-- Live demo link will be added when available.
+- **New version:** [Tsidika 2.0](https://github.com/Ratax397/Tsidika-2.0) is available with Next.js App Router, improved features, and a live demo.
